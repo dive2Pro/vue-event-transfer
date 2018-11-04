@@ -4,7 +4,7 @@ export default function(_Vue, options) {
     name = options.name;
   }
 
-  Vue.directive(name, function(el, bindling, $vnode) {
+  _Vue.directive(name, function(el, bindling, $vnode) {
     const { arg, value, expression } = bindling;
     const { context, componentInstance: instance } = $vnode;
     const origin$emit = instance.$emit;
