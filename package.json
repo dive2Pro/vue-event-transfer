@@ -9,6 +9,12 @@
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "directive",
+    "plugin"
+  ],
   "dependencies": {
     "vue": "^2.5.17"
   },
