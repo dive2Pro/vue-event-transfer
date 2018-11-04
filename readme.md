@@ -47,3 +47,22 @@
    <demo-use @click="alert('$event')" />
  </template>
 ```
+
+## 参数
+
+```js
+<custom-component v-e-transfer:prefix="value" />
+```
+
+这里的 prefix 会作为 事件名的前缀
+value 由于 vue 的机制, 只能传值 , 所以如果要传递多个值, 可以这样
+
+```js
+<custom-component v-e-transfer:prefix="{val: value}" />
+```
+
+在外层这样使用:
+
+```js
+  <demo-use @prefix-click="value, demoPassed"
+```

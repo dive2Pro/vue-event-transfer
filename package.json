@@ -1,0 +1,12 @@
+{
+  "name": "vue-event-transfer",
+  "version": "1.0.0",
+  "description": "组件 事件中转",
+  "main": "index.js",
+  "repository": "https://github.com/dive2Pro/vue-event-transfer.git",
+  "author": "1c <toylucklebo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
